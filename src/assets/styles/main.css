@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "BrushSignature";
+  src: url("../fonts/Brush\ Signature.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Chopin";
+  src: url("../fonts/Chopin-Light.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "BrushSignature", cursive;
+  margin: 0 0 1rem 0;
+  color: rgb(75, 65, 2);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Chopin", sans-serif;
+  margin: 0;
+  color: rgb(75, 65, 2);
+}
+
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.3rem;
+  }
+}
