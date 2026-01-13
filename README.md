@@ -5,7 +5,7 @@ I work as a frontend developer, and this project represents the first updated dr
 
 The portfolio is built with a focus on clean structure, component-based development, and accessibility. It serves as a foundation that will be iterated on over time as design, content, and functionality continue to evolve.
 
-Tech stack
+## Tech stack
 
 Vue 3
 
