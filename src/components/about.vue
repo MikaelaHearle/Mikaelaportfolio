@@ -4,6 +4,7 @@
       <h2>About Me</h2>
     </template>
     <div class="about-me__content">
+      <div>
         <p>
          I’m a frontend developer with a passion for clear communication, smart workflows, 
          and creating digital experiences that feel effortless for users. 
@@ -17,11 +18,14 @@
           and technology to make things better.
         </p>
         <p>
-          If you’d like to know more, you can download my resume here — in 
+          If you’d like to know more, you can download my resume here, in 
           <a :href="resume" target="_blank" class="about-me__link">English</a> or 
           <a :href="cv" target="_blank" class="about-me__link">Swedish</a>.
         </p>
+      </div>
+      <div>
         <img src="../assets/images/mikaela.png" alt="Image of Mikaela" class="about-me__image" />
+      </div>
     </div>
   </ContentBlock>
 </template>
@@ -51,6 +55,11 @@ import cv from '../assets/images/MikaelaHearle.pdf';
 
 .about-me__content > * {
   min-width: 0;
+}
+
+.about-me__content p:not(:last-child) {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
 .about-me__content img {
